@@ -1,0 +1,5 @@
+x,y,z= input().split()
+print(x)
+print(y)
+print(z)
+print(xyz,end="")
