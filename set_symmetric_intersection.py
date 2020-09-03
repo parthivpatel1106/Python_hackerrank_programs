@@ -1,0 +1,6 @@
+n=int(input())
+n_no=list(map(int,input().split()))
+m=int(input())
+m_no=list(map(int,input().split()))
+x=set(n_no).symmetric_difference(set(m_no)) 
+print(len(x))
